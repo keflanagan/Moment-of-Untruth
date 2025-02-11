@@ -4,10 +4,10 @@
 
 layout: default
 ---
-<h1><p style="text-align: center;">Kevin Flanagan, <a href="https://dimadamen.github.io">Dima Damen</a>, <a href="https://mwray.github.io/">Michael Wray</a></p></h1>
+<h1><p style="text-align: center;"><a href="https://keflanagan.github.io">Kevin Flanagan</a>, <a href="https://dimadamen.github.io">Dima Damen</a>, <a href="https://mwray.github.io/">Michael Wray</a></p></h1>
 <p style="text-align: center;">University of Bristol</p>
-![](assets/images/intro_fig_bmvc2.png)
-<i>Caption</i>
+![](assets/images/model_v5_hq.png)
+<i>The classification head for NA-VMR is added to a Video Moment Retrieval model (UniVTG in this case) via summation of the indicator and saliency scores, which are then passed through a recurrent layer and a feed forward layer before producing a single value output for classification.</i>
 ## Abstract
 
 Video Moment Retrieval is a common task to evaluate the performance of visual-language models—it involves localising start and end times of moments in videos from query sentences. The current task formulation assumes that the queried moment is present in the video, resulting in false positive moment predictions when irrelevant query sentences are provided. In this paper we propose the task of Negative-Aware Video Moment Retrieval (NA-VMR), which considers both moment retrieval accuracy and negative query rejection accuracy. We make the distinction between In-Domain and Out-of-Domain negative queries and provide new evaluation benchmarks for two popular video
@@ -15,20 +15,17 @@ moment retrieval datasets: QVHighlights and Charades-STA. We analyse the ability
 
 ## Video
 <!---
-<iframe width="800" height="460" src="https://www.youtube.com/embed/082nRrTHCnQ?si=mjB0r2o6rUhdbsMt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="800" height="460" src="https://www.youtube.com/embed/eFJMmmkzIGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 -->
 ## Paper
 <!--
 [ArXiv](https://arxiv.org/abs/2310.17395)
 -->
 
-## Poster
-
-
 
 ## Code, Data Splits and Features
 
-The dataset splits can be found [here](https://github.com/keflanagan/Moment-of-Untruth)
+The dataset splits and code for UniVTG-NA can be found [here](https://github.com/keflanagan/Moment-of-Untruth)
 
 ## Bibtex
 
@@ -36,7 +33,7 @@ The dataset splits can be found [here](https://github.com/keflanagan/Moment-of-U
 @InProceedings{flanagan2025moment,
     author    ={Flanagan, Kevin and Damen, Dima and Wray, Michael},
     title     ={Moment of Untruth: Dealing with Negative Queries in Video Moment Retrieval},
-    booktitle ={Winter Applications of Computer Vision Conference (BMVC)},
+    booktitle ={Winter Applications of Computer Vision Conference (WACV)},
     year      ={2025}
 }
 ```
