@@ -14,9 +14,7 @@ Video Moment Retrieval is a common task to evaluate the performance of visual-la
 moment retrieval datasets: QVHighlights and Charades-STA. We analyse the ability of current SOTA video moment retrieval approaches to adapt to Negative-Aware Video Moment Retrieval and propose UniVTG-NA, an adaptation of UniVTG designed to tackle NA-VMR. UniVTG-NA achieves high negative rejection accuracy (avg. 98.4%) scores while retaining moment retrieval scores to within 3.87% Recall@1 0.5 IoU.
 
 ## Video
-<!---
 <iframe width="800" height="460" src="https://www.youtube.com/embed/eFJMmmkzIGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
--->
 ## Paper
 <!--
 [ArXiv](https://arxiv.org/abs/2310.17395)
