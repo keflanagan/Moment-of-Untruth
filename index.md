@@ -6,8 +6,8 @@ layout: default
 ---
 <h1><p style="text-align: center;"><a href="https://keflanagan.github.io">Kevin Flanagan</a>, <a href="https://dimadamen.github.io">Dima Damen</a>, <a href="https://mwray.github.io/">Michael Wray</a></p></h1>
 <p style="text-align: center;">University of Bristol</p>
-![](assets/images/model_v5_hq.png)
-<i>The classification head for NA-VMR is added to a Video Moment Retrieval model (UniVTG in this case) via summation of the indicator and saliency scores, which are then passed through a recurrent layer and a feed forward layer before producing a single value output for classification.</i>
+![](assets/images/website_image.png)
+<i>Video moment retrieval models are designed to predict start and end times in a video given a query sentence, regardless of whether the moment actually exists. We alter existing moment retrieval models to be capable of rejecting query sentences which do not correspond to a moment in the video.</i>
 ## Abstract
 
 Video Moment Retrieval is a common task to evaluate the performance of visual-language models—it involves localising start and end times of moments in videos from query sentences. The current task formulation assumes that the queried moment is present in the video, resulting in false positive moment predictions when irrelevant query sentences are provided. In this paper we propose the task of Negative-Aware Video Moment Retrieval (NA-VMR), which considers both moment retrieval accuracy and negative query rejection accuracy. We make the distinction between In-Domain and Out-of-Domain negative queries and provide new evaluation benchmarks for two popular video
