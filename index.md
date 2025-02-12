@@ -23,7 +23,7 @@ moment retrieval datasets: QVHighlights and Charades-STA. We analyse the ability
 
 ## Code, Data Splits and Features
 
-The dataset splits and code for UniVTG-NA can be found [here](https://github.com/keflanagan/Moment-of-Untruth)
+The dataset splits and code for UniVTG-NA can be found [here](https://github.com/keflanagan/MomentofUntruth)
 
 ## Bibtex
 
