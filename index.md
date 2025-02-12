@@ -4,6 +4,7 @@
 
 layout: default
 ---
+<p align="center" style="font-size:40px">WACV 2025 Paper</p>
 <h1><p style="text-align: center;"><a href="https://keflanagan.github.io">Kevin Flanagan</a>, <a href="https://dimadamen.github.io">Dima Damen</a>, <a href="https://mwray.github.io/">Michael Wray</a></p></h1>
 <p style="text-align: center;">University of Bristol</p>
 ![](assets/images/website_image.png)
