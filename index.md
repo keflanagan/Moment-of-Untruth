@@ -17,9 +17,7 @@ moment retrieval datasets: QVHighlights and Charades-STA. We analyse the ability
 ## Video
 <iframe width="800" height="460" src="https://www.youtube.com/embed/eFJMmmkzIGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ## Paper
-<!--
-[ArXiv](https://arxiv.org/abs/2310.17395)
--->
+[ArXiv](https://arxiv.org/abs/2502.08544)
 
 
 ## Code, Data Splits and Features
